@@ -1,0 +1,35 @@
+input[disabled]{color:#fff;opacity:1}
+
+.quest{
+    padding: 3px;
+    border: 1px solid white;
+}
+.quest:hover{
+    border:1px solid dodgerblue;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+input[type=radio] , input[type=checkbox]{
+    position: relative;
+    margin: 15px;
+    line-height: 1.4;
+}
+label{
+    margin: 0px;
+    font-size: 15px;
+}
+.option-text{
+    line-height: 1.42857143;
+    border: 0px solid #ccc;
+    width:80%;
+}
